@@ -15,7 +15,7 @@ body {
 
 .wrapper {
     max-width: 1180px;
-    padding: 145px 30px 0;
+    padding: 145px 30px 50px;
     margin: 0 auto;
 }
 
@@ -39,47 +39,4 @@ body {
     line-height: 50px;
     margin:0;
     padding-left:100px;
-}
-
-/*.menu-title, .menu-list, 
-.section1-list, .section1-title,
-.halls-list, .halls-title, .about-title, .about-text, .about-blockquote__cite, .about-blockquote__text,
-.order-title, .review-title, .review-list, .review-user__text,
-.contacts-title, .contacts-mail, .contacts-tel, .contacts-address,
-.socials {
-margin: 0 auto;
-}
-
-.section1-features, .about-blockquote, .review-user {
-margin: 0;
-}
-
-.order-entertainment, .order-set, .order-halls, .order-games, .order-consoles, .order-calendar {
-border:none;
-padding:0;
-margin:0;
-}
-
-.section1-list, .review-list, .menu-list, .socials, .halls-list {
-margin-left: 0;
-padding-left: 0;
-}
-
-.section1-item, .menu-item, .halls-item, .review-item, .socials-item {
-list-style-type: none;
-}*/
-
-.review-item {
-    list-style-type: none;
-}
-.review-list {
-    margin-left: 0;
-    padding-left: 0;
-}
-.socials-item {
-    ist-style-type: none;
-}
-.socials {
-    margin-left: 0;
-    padding-left: 0;
 }

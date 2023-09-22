@@ -26,6 +26,10 @@
     background-size: cover;
 }
 
+.halls-item:not(:last-child) {
+    margin-bottom:60px;
+}
+
 .hall-vibes {
     background-image: url('img/halls-vibes.jpg');
 }
@@ -40,10 +44,6 @@
 
 .hall-neon {
     background-image: url('img/halls-neon.jpg');
-}
-
-.halls-item:not(:last-child) {
-    margin-bottom:60px;
 }
 
 .halls-link {
