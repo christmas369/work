@@ -12,27 +12,40 @@
     text-align: center;
 }
 
+.about-us {
+    margin-bottom: 78px;
+}
+
+.about-text {
+    margin: 0;
+}
+
 .about-text:not(:last-child) {
-    margin: 0 0 30px;
+    margin-bottom: 30px;
 }
 
 .about-blockquote {
-    padding-top: 40px;
     margin: 0;
     text-align: right;
 
 }
 
 .about-cite {
+    position: relative;
     font-size: 44px;
     line-height: 50px;
     text-transform: uppercase;
     text-align: left;
-    margin: 0;
+    white-space: pre-wrap;
+    /*padding-left: 32px;*/
+    margin: 0 0 40px;
 }
 
-.about-name:before {
+.about-cite:before {
     content:'\201c';
+    line-height: 100%;
+    position: relative;
+    top: -8px;
     /*display:inline-block;
     font-family: Arial;
     text-transform: uppercase;
@@ -40,10 +53,20 @@
     color: #6C0287;
     font-size: 44px;
     font-weight: 900;
-    margin-right: 32px;
+    display: inline-block;
+    margin-right: 35px;
     float: left;
 }
 
+.about-cite:after {
+    content:' \201d';
+    line-height: 100%;
+
+    color: #6C0287;
+    font-size: 44px;
+    font-weight: 900;
+    display: inline-block;
+}
 .about-local {
     margin: 0 0 40px;
     padding-left: 55px;
@@ -82,6 +105,7 @@
     width: 389px;
     text-align: left;
     margin: 0 0 0 auto;
+    white-space: pre-line;
 }
 
 .creator-name:before {

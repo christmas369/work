@@ -2,6 +2,7 @@
     font-style: normal;
     font-size: 24px;
     font-weight: 700;
+    margin: 0 0 39px;
 }
 
 .contacts-title {
@@ -31,11 +32,12 @@
     margin-right:30px;
 }*/
 
-.address-city {
-    margin: 0;
+.address-text {
+    margin: 0 0 38px;
+    white-space: pre-line;
 }
 
-.address-city:before {
+.address-text:before {
     content: '';
     display: inline-block;
     background-image: url(img/location.svg);
@@ -48,21 +50,14 @@
     margin-right:30px;
 }
 
-.address-street {
-    margin: 0 0 38px;
-}
-
 .contacts-link {
+    display: block;
     color: #ffffff;
     text-decoration: none;
-}
-
-.contacts-text {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
     padding-left: 65px;
-    
 }
 
 .contacts-tel {
@@ -71,7 +66,7 @@
 }
 
 .contacts-mail {
-    margin: 0 0 39px;
+    margin: 0;
     background-image: url(img/envelope.svg);
 }
 
@@ -96,21 +91,18 @@
     margin: 0;
     padding-left: 0;
     list-style: none;
-    display: inline;
     font-size: 0;
-    padding-top: 50px;
+    line-height: 0;
 }
 
 .socials-item {
-    display: inline;
-    line-height: 0;
-    padding-top: 50px;
+    display: inline-block;
 }
 
 .socials-link {
+    display: inline-block;
     color: #ffffff;
     text-decoration: none;
-    padding-top: 50px;
 }
 
 .socials-item:not(:last-child) {
