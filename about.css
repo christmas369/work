@@ -81,9 +81,7 @@
 .about-creator {
     width: 389px;
     text-align: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
+    margin: 0 0 0 auto;
 }
 
 .creator-name:before {
