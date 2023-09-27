@@ -1,0 +1,21 @@
+.main {
+    min-height: 823px;
+    background: url('img/main-banner.png') no-repeat bottom right;
+    margin-bottom: 50px;
+}
+
+.main-title {
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -15px;
+    margin:0;
+}
+
+.main-text {
+    font-size: 28px;
+    line-height: 50px;
+    margin:0;
+    padding-left:100px;
+}
