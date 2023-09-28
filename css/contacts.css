@@ -49,36 +49,19 @@
 .contact-address {
     margin: 0 0 38px;
     max-width: 300px;
-    background-image: url(img/location.svg);
+    background-image: url(../img/location.svg);
     background-size: 35px 35px;
 }
 
 .contact-tel {
     margin: 0 0 11px;
-    background-image: url(img/phone-call.svg);
+    background-image: url(../img/phone-call.svg);
 }
 
 .contact-mail {
     margin: 0;
-    background-image: url(img/envelope.svg);
+    background-image: url(../img/envelope.svg);
 }
-
-/*.contacts-mail {
-    margin: 0 0 39px;
-}
-
-.contacts-mail:before {
-    content: '';
-    display: inline-block;
-    background-image: url(img/envelope.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    width: 35px;
-    height: 32px;
-    float:left;
-    margin-right:26px;
-}*/
 
 .socials {
     margin: 0;
@@ -101,4 +84,3 @@
 .socials-item:not(:last-child) {
     margin-right: 26px;
 }
-

@@ -1,7 +1,11 @@
 .main {
-    min-height: 823px;
-    background: url('img/main-banner.png') no-repeat bottom right;
     margin-bottom: 50px;
+}
+
+.main .container{
+    min-height: 823px;
+    background: url('../img/main-banner.png') no-repeat bottom right;
+    
 }
 
 .main-title {

@@ -28,20 +28,20 @@
 }
 
 .faq-item:nth-child(even){
-    background-color:#440F51;
+    background-color: #440F51;
     color: #fff;
 }
 
 .faq-item:after {
-    content:'';
-    display:inline-block;
-    float:right;
-    width:46px;
-    height:46px;
-    background-image:url("img/open-violet.svg");
+    content: '';
+    display: inline-block;
+    float: right;
+    width: 46px;
+    height: 46px;
+    background-image: url("../img/open-violet.svg");
     background-size: contain;
 }
 
 .faq-item:nth-child(even):after {
-    background-image:url("img/open-white.svg");
+    background-image: url("../img/open-white.svg");
 }

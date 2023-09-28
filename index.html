@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>GO</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/global.css">
   </head>
   <body>
-    <div class="container">
-      <main>
-        <section class="main">
+    <main>
+      <section class="main">
+        <div class="container">
           <h1 class="main-title">GAME OVER</h1>
           <p class="main-text">Новый формат игр и отдыха</p>
-        </section>
-        <section id="halls" class="halls">
+        </div>
+      </section>
+      <section id="halls" class="halls">
+        <div class="container">
           <h2 class="halls-title">Наши залы</h2>
           <ol class="halls-list">
             <li class="halls-item hall-vibes"><a class="halls-link" href="vibes.html">80's vibes</a></li>
@@ -22,8 +24,10 @@
             <li class="halls-item hall-ww"><a class="halls-link" href="wildwest.html">Wild west</a></li>
             <li class="halls-item hall-neon"><a class="halls-link" href="neon.html">Neon style</a></li>
           </ol>
-        </section>
-        <section class="order">
+        </div>
+      </section>
+      <section class="order">
+        <div class="container">
           <h2 class="order-title">Забронировать зал просто</h2> 
           <form action="https://jsonplaceholder.typicode.com/posts"
           method="post" id="order">          
@@ -107,23 +111,27 @@
             </fieldset> 
             <button type="submit">Забронировать</button>                     
           </form>
-        </section>
-        <section id="about" class="about">
-            <h2 class="about-title">О нас</h2>
-            <div class="about-us">
-              <p class="about-text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города. </p>    
-              <p class="about-text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмофсферу и радовать Вас топовыми игровымии разработками со всего мира</p>   
-            </div>
-            <blockquote class="about-blockquote">
-              <p class="about-cite">GAME OVER &ndash;
-                это место незабываемых впечатлений</p>
-              <figure class="about-creator">
-                <figcaption class="creator-name">Аркадий Абакин, создатель игровой территории GAME OVER
-                </figcaption>
-              </figure>
-            </blockquote>
-        </section>
-        <section id="faq" class="faq">
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="about-title">О нас</h2>
+          <div class="about-us">
+            <p class="about-text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города. </p>    
+            <p class="about-text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмофсферу и радовать Вас топовыми игровымии разработками со всего мира</p>   
+          </div>
+          <blockquote class="about-blockquote">
+            <p class="about-cite">GAME OVER &ndash;
+              это место незабываемых впечатлений</p>
+            <figure class="about-creator">
+              <figcaption class="creator-name">Аркадий Абакин, создатель игровой территории GAME OVER
+              </figcaption>
+            </figure>
+          </blockquote>
+        </div>
+      </section>
+      <section id="faq" class="faq">
+        <div class="container">
           <h2 class="faq-title">Частые вопросы</h2>
           <ul class="faq-list">
             <li class="faq-item">Можно ли забронировать комнату онлайн?</li>
@@ -132,9 +140,11 @@
             <li class="faq-item">Как получить VIP карту?</li>
             <li class="faq-item">Какая комната самая популярная?</li>
           </ul>
-        </section>
-      </main>
-      <footer id="contacts" class="contacts">  
+        </div>
+      </section>
+    </main>
+    <footer id="contacts" class="contacts">
+      <div class="container">
         <p class="contacts-title">Контакты</p>    
         <address class="address">
           <p class="contact-item contact-address">г. Москва
@@ -173,7 +183,7 @@
             </a>
           </li>
         </ul>  
-      </footer>
-    </div>  
+      </div>
+    </footer>
   </body>
 </html>

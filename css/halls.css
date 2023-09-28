@@ -27,19 +27,19 @@
 }
 
 .hall-vibes {
-    background-image: url('img/halls-vibes.jpg');
+    background-image: url('../img/halls-vibes.jpg');
 }
 
 .hall-star {
-    background-image: url('img/halls-star.jpg');
+    background-image: url('../img/halls-star.jpg');
 }
 
 .hall-ww {
-    background-image: url('img/halls-west.png');
+    background-image: url('../img/halls-west.jpg');
 }
 
 .hall-neon {
-    background-image: url('img/halls-neon.jpg');
+    background-image: url('../img/halls-neon.jpg');
 }
 
 .halls-link {
@@ -52,4 +52,3 @@
     text-decoration: none;
     color: #ffffff; 
 }
-
