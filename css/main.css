@@ -1,14 +1,13 @@
 .main {
-    margin-bottom: 50px;
+    padding-top: 145px;
 }
 
-.main .container{
+.main__container{
     min-height: 823px;
     background: url('../img/main-banner.png') no-repeat bottom right;
-    
 }
 
-.main-title {
+.page__title {
     font-size: 150px;
     font-style: normal;
     font-weight: 900;
@@ -17,7 +16,7 @@
     margin:0;
 }
 
-.main-text {
+.page__subtitle {
     font-size: 28px;
     line-height: 50px;
     margin:0;

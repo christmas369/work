@@ -1,4 +1,4 @@
-.halls-title {
+.halls__title {
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -8,13 +8,13 @@
     text-align: center;
 }
 
-.halls-list {
+.halls__list {
     margin: 0;
     padding-left: 0;
     list-style: none;
 }
 
-.halls-item {
+.halls__item {
     padding: 275px 0;
     text-align: center;
     background-repeat: no-repeat;
@@ -22,27 +22,27 @@
     background-size: cover;
 }
 
-.halls-item:not(:last-child) {
+.halls__item:not(:last-child) {
     margin-bottom:60px;
 }
 
-.hall-vibes {
+.halls__item_vibes {
     background-image: url('../img/halls-vibes.jpg');
 }
 
-.hall-star {
+.halls__item_star {
     background-image: url('../img/halls-star.jpg');
 }
 
-.hall-ww {
+.halls__item_west {
     background-image: url('../img/halls-west.jpg');
 }
 
-.hall-neon {
+.halls__item_neon {
     background-image: url('../img/halls-neon.jpg');
 }
 
-.halls-link {
+.halls__link {
     display: inline-block;
     max-width: 252px;
     font-size: 70px;
