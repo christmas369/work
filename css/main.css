@@ -4,10 +4,12 @@
 
 .main__container{
     min-height: 823px;
-    background: url('../img/main-banner.png') no-repeat bottom right;
+    background: url('../img/main-banner.png') no-repeat bottom right 30px;
 }
 
-.page__title {
+.main__title {
+    position: relative;
+    z-index: -1;
     font-size: 150px;
     font-style: normal;
     font-weight: 900;
@@ -16,7 +18,7 @@
     margin:0;
 }
 
-.page__subtitle {
+.main__subtitle {
     font-size: 28px;
     line-height: 50px;
     margin:0;
