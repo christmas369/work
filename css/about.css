@@ -1,17 +1,18 @@
 .about__figure:before {
     content: '';
+    font-size: 0;
     display: inline-block;
-    vertical-align: middle;
-    float: left;
-    background: url(../img/about-background.jpg) no-repeat top left;
-    width: 600px;
-    height: 596px;
-    margin-right: 80px;
+    vertical-align: top;
+    background: url(../img/about-background.jpg) no-repeat top center;
+    background-size: cover;
+    width: calc(100% - 500px - 6%);
+    padding-bottom: calc(100% - 500px - 6%);
+    margin-right: 5%;
 }
 
 .about__figcaption {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     max-width: 500px;
 }
 .about__title {

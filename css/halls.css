@@ -9,36 +9,45 @@
 }
 
 .halls__item {
-    padding: 275px 0;
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
     background-repeat: no-repeat;
     background-position:  center center;
     background-size: cover;
+    width: calc(100% / 2  - 13px);
+    height: 349px;
 }
 
-.halls__item:not(:last-child) {
-    margin-bottom:60px;
+.halls__item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 20px;
+}
+
+.halls__item:not(:nth-child(even)) {
+    margin-right: 20px;
 }
 
 .halls__item_vibes {
-    background-image: url('../img/halls-vibes.jpg');
+    background-image: url('../img/halls-vibes\ 580.jfif');
 }
 
 .halls__item_star {
-    background-image: url('../img/halls-star.jpg');
+    background-image: url('../img//halls-star\ 580.jpg');
 }
 
 .halls__item_west {
-    background-image: url('../img/halls-west.jpg');
+    background-image: url('../img/halls-west\ 580.jpg');
 }
 
 .halls__item_neon {
-    background-image: url('../img/halls-neon.jpg');
+    background-image: url('../img/halls-neon\ 580.jpg');
 }
 
 .halls__link {
     display: inline-block;
-    max-width: 252px;
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
     font-size: 70px;
     font-weight: 700;
     line-height: 80px;
