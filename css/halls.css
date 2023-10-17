@@ -6,26 +6,30 @@
     margin: 0;
     padding-left: 0;
     list-style: none;
-    display: flow-root;
+    font-size: 0;
+    margin: -10px;
 }
 
 .halls__item {
-    width: calc(50% - 13px);
+    display: inline-block;
+    vertical-align: middle;
+    max-width: calc(50% - 20px);
+    margin: 10px;
+    width: 100%;
     padding: 135px 0;
     text-align: center;
     background-repeat: no-repeat;
     background-position:  center center;
     background-size: cover;
-    float: right;
 }
-
+/*
 .halls__item:not(:nth-last-child(-n + 2)) {
     margin-bottom:20px;
 }
 
 .halls__item:not(:nth-child(even)) {
     float: left;
-}
+}*/
 
 .halls__item_vibes {
     background-image: url('../img/halls-vibes\ 580.jfif');
@@ -50,5 +54,5 @@
     line-height: 80px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ffffff; 
+    color: #fff; 
 }

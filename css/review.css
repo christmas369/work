@@ -20,25 +20,25 @@
 
 .review__user {
     display: inline-block;
+    vertical-align: top;
     text-align: center;
-    margin-right: 2%;
-    float: left;
-    width: calc(100% - 680px - 2%);
+    margin-right: 20px;
 }
 
 .review__img {
-    width: 100%;
-    max-width: 280px;
-    max-height: 280px;
-    clip-path:circle();
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
     margin-bottom: 11px;
     object-fit: cover;
 }
 
 .review__text {
+    display: inline-block;
+    vertical-align: top;
     padding-top: 52px;
-    max-width: 680px;
-    float: right;
+    width: calc(100% - 316px);
+    
 }
 
 .max {
