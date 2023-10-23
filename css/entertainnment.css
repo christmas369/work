@@ -1,0 +1,56 @@
+.entertainment__title {
+    white-space: pre-line;
+}
+
+.entertainment__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+
+.entertainment__item {
+    display: flex;
+    min-height: 228px;
+    flex: 1 1 380px;
+    padding: 6px 40px;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    font-weight: 700;
+}
+
+.entertainment__card {
+    min-height: 56px;
+    display: flex;
+}
+
+.entertainment__text {
+    flex-basis: 100%;
+}
+
+.entertainment__item_vr {
+    background-image: url('../img/entertaiment-vr.jpg');
+}
+
+.entertainment__item_audio {
+    background-image: url('../img/entertaiment-audio.jpg');
+}
+
+.entertainment__item_karaoke {
+    background-image: url('../img/entertaiment-karaoke.jpg');
+}
+
+.entertainment__item_games {
+    background-image: url('../img/entertaiment-games.jpg');
+}
+
+.entertainment__item_kino {
+    background-image: url('../img/entertaiment-kino.png');
+}
+
+.entertainment__item_ps {
+    background-image: url('../img/entertaiment-playstation.jpg');
+}
+
+

@@ -4,16 +4,105 @@
     <meta charset="UTF-8">
     <title>GO</title>
     
+    <link rel="icon" type="image/svg+xml" href="img/icon.svg">
+    <link rel="icon" type="image/png" href="img/icon.png">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body class="page">
+    <header class="header">
+      <div class="container header__container">
+        <img class="menu__img" src="img/logo.svg" alt="Логотип" height="66">
+        <nav class="menu">
+          
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#halls">Залы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#about">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#order">Бронь</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#review">Отзывы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+          
+        </nav>
+        <button class="menu__button">Заказать звонок</button>
+      </div>
+    </header>
     <main>
       <section class="section main">
         <div class="container main__container">
           <h1 class="main__title">GAME OVER</h1>
           <p class="main__subtitle">Новый формат игр и отдыха</p>
+          <div class="main__group">
+            <div class="main__element">
+              <p class="main__title-element main__title-element_big">4</p>
+              <p class="main__text">Тематических 
+                зала</p>
+            </div>
+            <div class="main__element">
+              <p class="main__title-element main__title-element_small">new</p>
+              <p class="main__text">Новейшая 
+                аппаратура</p>
+            </div>
+            
+          </div>
+          <button class="main__button">Забронировать</button>
+          <button class="modal__close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none">
+              <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
+              <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
+              <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
+            </svg>                  
+          </button>
+        </div>
+      </section>
+      <section class="section entertainment">
+        <div class="container">
+          <h1 class="entertainment__title title">У нас есть все для классного 
+            отдыха с друзьями!</h1>
+          <ul class="entertainment__list">
+            <li class="entertainment__item entertainment__item_vr">
+              <figure class="entertainment__card">
+                <figcaption class="entertainment__text">VR очки</figcaption>
+              </figure>
+            </li>
+            <li class="entertainment__item entertainment__item_audio">
+              <figure class="entertainment__card ">
+                <figcaption class="entertainment__text">Аудио-система 5.1 с отличным звуком</figcaption>
+              </figure>
+            </li>
+            <li class="entertainment__item entertainment__item_karaoke">
+              <figure class="entertainment__card ">
+                <figcaption class="entertainment__text">Караоке (4 микрофона)</figcaption>
+              </figure>
+            </li>
+            <li class="entertainment__item entertainment__item_games">
+              <figure class="entertainment__card">
+                <figcaption class="entertainment__text">Настольные игры</figcaption>
+              </figure>
+            </li>
+            <li class="entertainment__item entertainment__item_kino">
+              <figure class="entertainment__card">
+                <figcaption class="entertainment__text">Кино сервисы Netflix, IVI, MegoGo, Кинопоиск, Okko</figcaption>
+              </figure>
+            </li>
+            <li class="entertainment__item entertainment__item_ps">
+              <figure class="entertainment__card">
+                <figcaption class="entertainment__text">PlayStation 5</figcaption>
+              </figure>
+            </li>
+          </ul>
         </div>
       </section>
       <section id="halls" class="section halls">

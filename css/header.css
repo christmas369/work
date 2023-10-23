@@ -1,0 +1,40 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__button {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.36;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 3px solid #CD06FF;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.menu__list {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu__item {
+    font-size: 22px;
+    line-height: 2.273; /* 227.273% */
+    text-transform: uppercase;
+    align-self: center;
+}
