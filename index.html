@@ -121,58 +121,58 @@
           <h2 class="order__title title">Забронировать зал просто</h2> 
           <form action="https://jsonplaceholder.typicode.com/posts"
           method="post" id="order" class="order__form">          
-            <fieldset class="fieldset fieldset_direct_row">
+            <fieldset class="order__halls fieldset fieldset_direct_row">
               <legend class="fieldset__title">Выбери зал</legend>
-              <input type="radio" name="halls" value="vibes" id="vibes" class="fieldset__halls-input" checked>
-              <label for="vibes" class="fieldset__halls-label">80's vibes</label>
+              <input type="radio" name="halls" value="vibes" id="vibes" class="order__halls-input" checked>
+              <label for="vibes" class="order__halls-label">80's vibes</label>
 
-              <input type="radio" name="halls" value="star" id="star" class="fieldset__halls-input">
-              <label for="star" class="fieldset__halls-label">Star wars</label>
+              <input type="radio" name="halls" value="star" id="star" class="order__halls-input">
+              <label for="star" class="order__halls-label">Star wars</label>
 
-              <input type="radio" name="halls" value="west" id="west" class="fieldset__halls-input">
-              <label for="west" class="fieldset__halls-label">Wild west</label>
+              <input type="radio" name="halls" value="west" id="west" class="order__halls-input">
+              <label for="west" class="order__halls-label">Wild west</label>
 
-              <input type="radio" name="halls" value="neon" id="neon" class="fieldset__halls-input">
-              <label for="neon" class="fieldset__halls-label">Neon style</label>
+              <input type="radio" name="halls" value="neon" id="neon" class="order__halls-input">
+              <label for="neon" class="order__halls-label">Neon style</label>
             </fieldset>
-            <fieldset class="fieldset fieldset_direct_row">
+            <fieldset class="order__fieldset  fieldset_direct_row">
               <legend class="fieldset__title">Собери набор развлечений</legend>
-              <fieldset class="fieldset__column field">
-                <legend class="field__title">Приставка:</legend>
-                <label class="field__label">
+              <fieldset class="column console">
+                <legend class="column__title">Приставка:</legend>
+                <label class="column__label">
                   <input type="radio" name="consoles" value="ps" id="ps" class="field__radio-input" checked>PlayStation
                 </label>
-                <label class="field__label">
+                <label class="column__label">
                   <input type="radio" name="consoles" value="sega" id="sega" class="field__radio-input">Sega Mega Drive
                 </label>
-                <label class="field__label">
+                <label class="column__label">
                   <input type="radio" name="consoles" value="xbox" id="xbox" class="field__radio-input">X-box One S
                 </label> 
-                <label class="field__label">
+                <label class="column__label">
                   <input type="radio" name="consoles" value="dendy" id="dendy" class="field__radio-input">Dendy
                 </label>                           
               </fieldset>
-              <fieldset class="fieldset__column field">
-                <legend class="field__title">Настольные игры:</legend>
-                <label class="field__label">
+              <fieldset class="column">
+                <legend class="column__title">Настольные игры:</legend>
+                <label class="column__label">
                   <input type="checkbox" name="games" value="jenga" id="jenga" class="field__checkbox-input">Jenga
                 </label>
-                <label class="field__label">
+                <label class="column__label">
                   <input type="checkbox" name="games" value="monopoly" id="monopoly" class="field__checkbox-input">Monopoly
                 </label>
-                <label class="field__label">
+                <label class="column__label">
                   <input type="checkbox" name="games" value="manch" id="manch" class="field__checkbox-input">Манчкин
                 </label > 
-                <label class="field__label">
+                <label class="column__label">
                   <input type="checkbox" name="games" value="alias" id="alias" class="field__checkbox-input">Alias
                 </label>                       
               </fieldset>
-              <fieldset class="fieldset__column field">
-                <legend class="field__title">Дополнительно:</legend>
-                <label class="field__label">
+              <fieldset class="column">
+                <legend class="column__title">Дополнительно:</legend>
+                <label class="column__label">
                   <input type="checkbox" name="entertainment" value="karaoke" class="field__checkbox-input">Караоке
                 </label>
-                <label class="field__label">
+                <label class="column__label">
                   <input type="checkbox" name="entertainment" value="vr" class="field__checkbox-input">VR
                 </label>                                 
               </fieldset>
