@@ -23,6 +23,7 @@
 .entertainment__card {
     min-height: 56px;
     display: flex;
+    flex: 1;
 }
 
 .entertainment__text {

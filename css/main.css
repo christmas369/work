@@ -71,3 +71,10 @@
     padding: 25px 69px;
     flex-shrink: 0;
 }
+
+.main__next-button {
+    position: relative;
+    font-size: 0;
+    bottom: 33px;
+    left: calc(50% - 46px);
+}
