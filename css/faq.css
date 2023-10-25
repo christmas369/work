@@ -9,12 +9,14 @@
 }
 
 .faq__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
     color: #1C1A1A;
     font-weight: 700;
     font-size: 24px;
     padding: 20px 70px;
-    line-height:46px;
 }
 
 .faq__item:not(:last-child) {
@@ -28,8 +30,6 @@
 
 .faq__item:after {
     content: '';
-    display: inline-block;
-    float: right;
     width: 46px;
     height: 46px;
     background-image: url("../img/open-violet.svg");

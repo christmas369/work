@@ -11,7 +11,7 @@
 }
 
 .review__item {
-    display: flow-root;  
+    display: flex;  
 }
 
 .review__item:not(:last-child) {
@@ -19,8 +19,8 @@
 }
 
 .review__user {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-right: 20px;
 }
@@ -34,11 +34,8 @@
 }
 
 .review__text {
-    display: inline-block;
-    vertical-align: top;
     padding-top: 52px;
-    width: calc(100% - 316px);
-    
+    flex: 1;
 }
 
 .max {
