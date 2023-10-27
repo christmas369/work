@@ -45,12 +45,12 @@
     font-weight: 900;
 }
 
-.main__title-element_small {
+.main__title-element_small-size-font {
     font-size: 75px;
     font-variant: small-caps;
 }
 
-.main__title-element_big {
+.main__title-element_big-size-font {
     font-size: 100px;
 }
 
@@ -60,7 +60,9 @@
 }
 
 .main__button {
-    display: block;
+    display: flex;
+}
+.main__link-button {
     border-radius: 10px;
     background: #6C0287;
     color: #FFF;
@@ -69,10 +71,10 @@
     line-height: 1.15; /* 115.385% */
     text-transform: uppercase;
     padding: 25px 69px;
-    flex-shrink: 0;
 }
 
-.main__next-button {
+.main__arrow-link {
+    display: inline-flex;
     position: relative;
     font-size: 0;
     bottom: 33px;

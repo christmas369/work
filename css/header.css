@@ -6,19 +6,16 @@
 .header__container {
     display: flex;
     justify-content: space-between;
-}
-
-.menu {
-    display: flex;
+    align-items: center;
 }
 
 .menu__button {
     color: #fff;
     font-size: 22px;
     font-weight: 700;
-    line-height: 1.36;
+    line-height: 1.364;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 9px 29px 10px;
     border-radius: 10px;
     border: 3px solid #CD06FF;
     align-self: center;
@@ -26,15 +23,13 @@
 }
 
 .menu__list {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
     gap: 40px;
 }
 
-.menu__item {
+.menu__link {
+    display: block;
     font-size: 22px;
     line-height: 2.273; /* 227.273% */
     text-transform: uppercase;
-    align-self: center;
 }

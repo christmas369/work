@@ -43,26 +43,29 @@
           <p class="main__subtitle">Новый формат игр и отдыха</p>
           <div class="main__group">
             <div class="main__element">
-              <p class="main__title-element main__title-element_big">4</p>
+              <p class="main__title-element main__title-element_big-size-font">4</p>
               <p class="main__text">Тематических 
                 зала</p>
             </div>
             <div class="main__element">
-              <p class="main__title-element main__title-element_small">new</p>
+              <p class="main__title-element main__title-element_small-size-font">new</p>
               <p class="main__text">Новейшая 
                 аппаратура</p>
             </div>
             
           </div>
-          <button class="main__button">Забронировать</button>
-          <button class="main__next-button">
+          <div class="main__button">
+            <a class="main__link-button" href="#order">Забронировать</a>
+          </div>
+          
+            <a class="main__arrow-link" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none">
               <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
               <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
               <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
             </svg>                  
-          </button>
-        </div>
+          </a>
+        
       </section>
       <section class="section entertainment">
         <div class="container">
@@ -70,34 +73,22 @@
             отдыха с друзьями!</h1>
           <ul class="entertainment__list">
             <li class="entertainment__item entertainment__item_vr">
-              <figure class="entertainment__card">
-                <figcaption class="entertainment__text">VR очки</figcaption>
-              </figure>
+                <p class="entertainment__text">VR очки</p>
             </li>
             <li class="entertainment__item entertainment__item_audio">
-              <figure class="entertainment__card ">
-                <figcaption class="entertainment__text">Аудио-система 5.1 с отличным звуком</figcaption>
-              </figure>
+                <p class="entertainment__text">Аудио-система 5.1 с отличным звуком</p>
             </li>
             <li class="entertainment__item entertainment__item_karaoke">
-              <figure class="entertainment__card ">
-                <figcaption class="entertainment__text">Караоке (4 микрофона)</figcaption>
-              </figure>
+                <p class="entertainment__text">Караоке (4 микрофона)</p>
             </li>
             <li class="entertainment__item entertainment__item_games">
-              <figure class="entertainment__card">
-                <figcaption class="entertainment__text">Настольные игры</figcaption>
-              </figure>
+                <p class="entertainment__text">Настольные игры</p>
             </li>
             <li class="entertainment__item entertainment__item_kino">
-              <figure class="entertainment__card">
-                <figcaption class="entertainment__text">Кино сервисы Netflix, IVI, MegoGo, Кинопоиск, Okko</figcaption>
-              </figure>
+                <p class="entertainment__text">Кино сервисы Netflix, IVI, MegoGo, Кинопоиск, Okko</p>
             </li>
             <li class="entertainment__item entertainment__item_ps">
-              <figure class="entertainment__card">
-                <figcaption class="entertainment__text">PlayStation 5</figcaption>
-              </figure>
+                <p class="entertainment__text">PlayStation 5</p>
             </li>
           </ul>
         </div>
@@ -117,11 +108,11 @@
           </ol>
         </div>
       </section>
-      <section class="section order">
+      <section id="order" class="section order">
         <div class="container">
           <h2 class="order__title title">Забронировать зал просто</h2> 
           <form action="https://jsonplaceholder.typicode.com/posts"
-          method="post" id="order" class="order__form">          
+          method="post" class="order__form">          
             <fieldset class="order__halls fieldset fieldset_direct_row">
               <legend class="fieldset__title">Выбери зал</legend>
               <input type="radio" name="halls" value="vibes" id="vibes" class="order__halls-input" checked>
@@ -198,8 +189,9 @@
                 <input type="tel" name="tel" id="tel" class="data__input" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}" title="+7-___-___-__-__" required >           
                 <label for="email" class="data__label">E-mail</label>
                 <input type="email" name="email" id="email" class="data__input" required>
+                <button type="submit" class="order__button">Забронировать</button>
               </div>
-              <button type="submit" class="order__button">Забронировать</button>                                
+                                              
             </fieldset>                     
           </form>
         </div>
