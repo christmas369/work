@@ -24,27 +24,27 @@
     min-height: 56px;
 }
 
-.entertainment__item_vr {
+.entertainment__item_img_vr {
     background-image: url('../img/entertaiment-vr.jpg');
 }
 
-.entertainment__item_audio {
+.entertainment__item_img_audio {
     background-image: url('../img/entertaiment-audio.jpg');
 }
 
-.entertainment__item_karaoke {
+.entertainment__item_img_karaoke {
     background-image: url('../img/entertaiment-karaoke.jpg');
 }
 
-.entertainment__item_games {
+.entertainment__item_img_games {
     background-image: url('../img/entertaiment-games.jpg');
 }
 
-.entertainment__item_kino {
+.entertainment__item_img_kino {
     background-image: url('../img/entertaiment-kino.png');
 }
 
-.entertainment__item_ps {
+.entertainment__item_img_ps {
     background-image: url('../img/entertaiment-playstation.jpg');
 }
 
