@@ -45,12 +45,12 @@
     font-weight: 900;
 }
 
-.main__title-element_small-size-font {
+.main__title-element_font-small-size {
     font-size: 75px;
     font-variant: small-caps;
 }
 
-.main__title-element_big-size-font {
+.main__title-element_font-big-size {
     font-size: 100px;
 }
 

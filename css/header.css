@@ -18,8 +18,10 @@
     padding: 9px 29px 10px;
     border-radius: 10px;
     border: 3px solid #CD06FF;
+    background: transparent;
     align-self: center;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .menu__list {
