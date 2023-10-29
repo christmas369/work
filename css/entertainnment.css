@@ -18,11 +18,12 @@
     background-position:  center center;
     background-size: cover;
     font-weight: 700;
+    white-space: pre-line;
 }
-
+/*
 .entertainment__text {
-    min-height: 56px;
-}
+    min-height: 56px;  
+}*/
 
 .entertainment__item_img_vr {
     background-image: url('../img/entertaiment-vr.jpg');
