@@ -113,21 +113,20 @@
 
 .column__radio-input:before {
     content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
     display: block;
     width: 27px;
     height: 27px;
-    background-color: #fff;
-    border-radius: 50%;
+    background-image: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">\
+        <circle cx="13.5" cy="13.5" r="13.5" fill="white"/>\
+    </svg>');
+    transition: all .5s ease;
 }
 
 .column__radio-input:focus:before {
     outline: 1px solid #CD06FF;
     outline-offset: 3px;
-    border-radius: 0;
- }
+}
 
 .column__radio-input:after {
     content: '';
@@ -172,8 +171,8 @@
 }
 
 .column__checkbox-input:focus:before {
-   outline: 1px solid #CD06FF;
-   outline-offset: 3px;
+    outline: 1px solid #CD06FF;
+    outline-offset: 3px;
 }
 
 .column__checkbox-input:after {

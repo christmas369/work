@@ -28,10 +28,55 @@
     content: '';
     width: 46px;
     height: 46px;
-    background-image: url("../img/open-violet.svg");
-    background-size: contain;
+    background-image: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">\
+        <path d="M22.8305 14H23.5085V34H22.8305V14Z" fill="%236C0287"/>\
+        <path d="M13 24.1695V23.4915H33V24.1695H13Z" fill="%236C0287"/>\
+        <circle cx="23" cy="23" r="22.5" stroke="%236C0287"/>\
+    </svg>');
+    background-size: 46px;
+    transition: background .5s ease;
+}
+
+.faq__item:hover:after {
+    background-image: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">\
+        <circle cx="23" cy="23" r="22.5" fill="%236C0287" stroke="%236C0287"/>\
+        <path d="M22.8305 14H23.5085V34H22.8305V14Z" fill="white"/>\
+        <path d="M13 24.1695V23.4915H33V24.1695H13Z" fill="white"/>\
+    </svg>');
+}
+
+.faq__item:active:after {
+    background-image: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">\
+        <circle cx="23" cy="23" r="22.5" stroke="%236C0287"/>\
+        <rect x="13" y="23" width="20" height="1" fill="%236C0287"/>\
+    </svg>');
 }
 
 .faq__item:nth-child(even):after {
-    background-image: url("../img/open-white.svg");
+    background-image: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">\
+        <path d="M22.8305 14H23.5085V34H22.8305V14Z" fill="white"/>\
+        <path d="M13 24.1695V23.4915H33V24.1695H13Z" fill="white"/>\
+        <circle cx="23" cy="23" r="22" stroke="white" stroke-width="2"/>\
+    </svg>');
+}
+
+.faq__item:nth-child(even):hover:after {
+    background-image: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">\
+        <circle cx="23" cy="23" r="22.5" fill="white" stroke="white"/>\
+        <path d="M22.8305 14H23.5085V34H22.8305V14Z" fill="%236C0287"/>\
+        <path d="M13 24.1695V23.4915H33V24.1695H13Z" fill="%236C0287"/>\
+    </svg>');
+}
+
+.faq__item:nth-child(even):active:after {
+    background-image: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">\
+        <rect x="13" y="23" width="20" height="1" fill="white"/>\
+        <circle cx="23" cy="23" r="22" stroke="white" stroke-width="2"/>\
+    </svg>');
 }
