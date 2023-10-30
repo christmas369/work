@@ -35,6 +35,7 @@
         <circle cx="23" cy="23" r="22.5" stroke="%236C0287"/>\
     </svg>');
     background-size: 46px;
+    background-repeat: no-repeat;
     transition: background .5s ease;
 }
 
