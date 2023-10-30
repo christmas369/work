@@ -37,6 +37,7 @@
     background-size: 46px;
     background-repeat: no-repeat;
     transition: background .5s ease;
+    flex-shrink: 0;
 }
 
 .faq__item:hover:after {
