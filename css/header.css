@@ -9,21 +9,6 @@
     align-items: center;
 }
 
-.menu__button {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.364;
-    text-transform: uppercase;
-    padding: 9px 29px 10px;
-    border-radius: 10px;
-    border: 3px solid #CD06FF;
-    background: transparent;
-    align-self: center;
-    flex-shrink: 0;
-    cursor: pointer;
-}
-
 .menu__list {
     display: flex;
     gap: 40px;
@@ -35,3 +20,43 @@
     line-height: 2.273; /* 227.273% */
     text-transform: uppercase;
 }
+
+.menu__button {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.364;
+    text-transform: uppercase;
+    padding: 12px 32px 13px;
+    border-radius: 10px;
+    border: none;
+    outline: 3px solid #CD06FF;
+    outline-offset: -3px;
+    background: transparent;
+    align-self: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.menu__button:hover {
+    background: #6C0287;
+    outline:  3px solid #6C0287;
+    outline-offset: -3px;
+}
+
+.menu__button:active {
+    outline: 1px solid #000;
+    outline-offset: -1px;
+    background: #640AA3;
+}
+
+.menu__button:focus {
+    background: #6C0287;
+    outline:  3px solid #6C0287;
+    outline-offset: -3px;
+}
+
+
+
+
