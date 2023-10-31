@@ -17,8 +17,16 @@
 .menu__link {
     display: block;
     font-size: 22px;
-    line-height: 2.273; /* 227.273% */
     text-transform: uppercase;
+    transition: color .5s ease-in;
+}
+
+.menu__link:hover {
+    color:#CD06FF;
+}
+
+.menu__link:focus {
+    color:#640AA3;
 }
 
 .menu__button {
@@ -45,16 +53,16 @@
     outline-offset: -3px;
 }
 
-.menu__button:active {
-    outline: 1px solid #000;
-    outline-offset: -1px;
-    background: #640AA3;
-}
-
 .menu__button:focus {
     background: #6C0287;
     outline:  3px solid #6C0287;
     outline-offset: -3px;
+}
+
+.menu__button:active {
+    outline: 1px solid #000;
+    outline-offset: -1px;
+    background: #640AA3;
 }
 
 

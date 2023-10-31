@@ -36,7 +36,7 @@
     border-radius: 8px;
     border: none;
     outline: 3px solid #fff;
-    outline-offset: -3px;
+    outline-offset: -2px;
     background: #FFF;
     flex: 250px;
     padding: 7px 15px 8px;
@@ -48,15 +48,21 @@
     background: #EADEED;
 }
 
+.order__halls-label:focus {
+    outline: 3px solid #640AA3;
+    background: #FFF;
+}
+
 .order__halls-label:active {
     outline: 3px solid #FFF;
     background: #6C0287;
     color: #fff;
 }
 
-.order__halls-label:focus {
-    outline: 3px solid #640AA3;
-    background: #FFF;
+.order__halls-input:checked + .order__halls-label {
+    outline: 3px solid #FFF;
+    background: #6C0287;
+    color: #fff;
 }
 
 .order__fieldset {
@@ -296,7 +302,7 @@
     border-radius: 10px;
     border: none;
     outline: 3px solid #fff;
-    outline-offset: -3px;
+    outline-offset: -2px;
     background: #FFF;
     padding: 16px 50px;
     order: 1;
@@ -308,11 +314,11 @@
     background: #EADEED;
 }
 
+.order__button:focus {
+    outline: 3px solid #6C0287;
+}
+
 .order__button:active {
     outline: 3px solid #EADEED;
     background: #EADEED;;
-}
-
-.order__button:focus {
-    outline: 3px solid #6C0287;
 }

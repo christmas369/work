@@ -77,12 +77,12 @@
     background: #840AA3;
 }
 
-.main__link-button:active {
-    background: #640AA3;
-}
-
 .main__link-button:focus {
     background: #840AA3;
+}
+
+.main__link-button:active {
+    background: #640AA3;
 }
 
 .main__arrow-link {

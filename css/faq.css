@@ -38,6 +38,7 @@
     background-repeat: no-repeat;
     transition: background .5s ease;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .faq__item:hover:after {

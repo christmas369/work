@@ -47,6 +47,15 @@
     background-image: url(../img/envelope.svg);
 }
 
+.contacts__link:hover {
+    color:#CD06FF;
+    text-shadow: 1px 1px #ffffff80;
+}
+
+.contacts__link:focus {
+    text-shadow: none;
+}
+
 .socials {
     display: flex;
     align-items: center;
@@ -61,19 +70,20 @@
     color: #ffffff;
     text-decoration: none;
     border: 1px solid #CD06FF00;
+    transition: all .5s ease;
 }
 
 .socials__link:hover {
     color: #EADEED;
 }
 
-.socials__link:active {
-    color: #CD06FF;
-}
-
 .socials__link:focus {
     color: #EADEED;
     border: 1px solid #CD06FF;
+}
+
+.socials__link:active {
+    color: #CD06FF;
 }
 
 .socials__item:not(:last-child) {
@@ -100,4 +110,13 @@
 
 .copyright__text_bottom {
     margin-bottom: 6px;
+}
+
+.copyright__link:hover {
+    color:#CD06FF;
+    text-shadow: 1px 1px #ffffff80;
+}
+
+.copyright__link:focus {
+    text-shadow: none;
 }

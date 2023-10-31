@@ -13,8 +13,6 @@
 
 .halls__item {
     display: flex;
-    /*justify-content: center;
-    min-height: 349px;*/
     text-align: center;
     background-repeat: no-repeat;
     background-position:  center center;
@@ -39,6 +37,8 @@
 }
 
 .halls__link {
+    position: relative;
+    z-index: 1;
     font-size: 70px;
     font-weight: 700;
     line-height: 80px;
@@ -47,5 +47,31 @@
     color: #fff;
     min-width: 100%;
     padding: 95px 0;
-    white-space: pre-line;
+    white-space: pre-line;    
+}
+
+.halls__link:before {
+    content:'';
+    display: block;
+}
+
+.halls__link:hover:before {
+    content:'';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #CD06FF48;
+    transition: all .5s ease; 
+}
+
+.halls__link:focus {
+    outline: 1px solid #CD06FF;
+    outline-offset: 5px;
+}
+
+.halls__link:active:before {
+    background: #ffffff48;
 }
