@@ -47,6 +47,10 @@
     background-image: url(../img/envelope.svg);
 }
 
+.contacts__link {
+    transition: all .5s ease; 
+}
+
 .contacts__link:hover {
     color:#CD06FF;
     text-shadow: 1px 1px #ffffff80;
@@ -110,6 +114,10 @@
 
 .copyright__text_bottom {
     margin-bottom: 6px;
+}
+
+.copyright__link {
+    transition: all .5s ease; 
 }
 
 .copyright__link:hover {

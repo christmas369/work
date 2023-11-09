@@ -71,6 +71,7 @@
     line-height: 1.15; /* 115.385% */
     text-transform: uppercase;
     padding: 25px 69px;
+    transition: background-color .5s ease;
 }
 
 .main__link-button:hover {

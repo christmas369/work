@@ -47,7 +47,8 @@
     color: #fff;
     min-width: 100%;
     padding: 95px 0;
-    white-space: pre-line;    
+    white-space: pre-line;
+    transition: all .5s ease;    
 }
 
 .halls__link:before {
