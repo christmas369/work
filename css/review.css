@@ -12,10 +12,24 @@
 }
 
 .review__user {
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-right: 20px;
+}
+
+.review__user:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 280px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #C4C4C400 0%, #6C028780 100%); 
+    transition: all .5s ease;
 }
 
 .review__img {
