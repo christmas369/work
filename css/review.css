@@ -28,8 +28,7 @@
     bottom: 0;
     height: 280px;
     border-radius: 50%;
-    background: radial-gradient(50% 50% at 50% 50%, #C4C4C400 0%, #6C028780 100%); 
-    transition: all .5s ease;
+    background: radial-gradient(50% 50% at 50% 50%, var(--review-gradient-center) 0%, var(--review-gradient-circle) 100%); 
 }
 
 .review__img {

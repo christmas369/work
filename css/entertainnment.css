@@ -28,7 +28,7 @@
 
 .entertainment__item:hover {
     transform: scale(1.1);
-    box-shadow: 2px 2px 5px #ffffff32;
+    box-shadow: 2px 2px 5px var(--entertainment-shadow-hover);
 }
 
 .entertainment__item:nth-child(3n + 2) {

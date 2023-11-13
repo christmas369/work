@@ -22,15 +22,15 @@
 }
 
 .menu__link:hover {
-    color:#CD06FF;
+    color: var(--menu-link-hover);
 }
 
 .menu__link:focus {
-    color:#640AA3;
+    color: var(--menu-link-focus);
 }
 
 .menu__button {
-    color: #fff;
+    color: var(--text-color);
     font-size: 22px;
     font-weight: 700;
     line-height: 1.364;
@@ -38,7 +38,7 @@
     padding: 12px 32px 13px;
     border-radius: 10px;
     border: none;
-    outline: 3px solid #CD06FF;
+    outline: 3px solid var(--menu-button-outline);
     outline-offset: -3px;
     background: transparent;
     align-self: center;
@@ -48,21 +48,21 @@
 }
 
 .menu__button:hover {
-    background: #6C0287;
-    outline:  3px solid #6C0287;
+    background: var(--memu-button-hover);
+    outline:  3px solid var(--memu-button-hover);
     outline-offset: -3px;
 }
 
 .menu__button:focus {
-    background: #6C0287;
-    outline:  3px solid #6C0287;
+    background: var(--memu-button-focus);
+    outline:  3px solid var(--memu-button-focus);
     outline-offset: -3px;
 }
 
 .menu__button:active {
-    outline: 1px solid #000;
+    outline: 1px solid var(--memu-button-outline-active);
     outline-offset: -1px;
-    background: #640AA3;
+    background: var(--memu-button-bg-active);
 }
 
 

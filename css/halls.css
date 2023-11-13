@@ -44,7 +44,6 @@
     line-height: 80px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
     min-width: 100%;
     padding: 95px 0;
     white-space: pre-line;
@@ -64,15 +63,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #CD06FF48;
+    background: var(--halls-link-bg-hover);
     transition: all .5s ease; 
 }
 
 .halls__link:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--halls-link-outline-focus);
     outline-offset: 5px;
 }
 
 .halls__link:active:before {
-    background: #ffffff48;
+    background: var(--halls-link-bg-active);
 }
